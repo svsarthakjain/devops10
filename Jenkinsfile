@@ -1,6 +1,6 @@
 pipeline{
   environment{
-    reg="svsarthak/ass10"
+    reg="svsarthak/Ass10"
     regCre="docker_id"
     dockerImg = ""
   }
