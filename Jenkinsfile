@@ -13,7 +13,7 @@ pipeline{
         }
       }
     }    
-    stage('Deploy teh image'){
+    stage('Deploy the image'){
       steps{
           script{
             docker.withRegistry('',regCre){
