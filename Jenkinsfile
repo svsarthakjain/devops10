@@ -4,7 +4,7 @@ pipeline{
     regCre="docker_id"
     dockerImg = ""
   }
-  agent my
+  agent any
   stages{
     stage('Build Image'){
       steps{
